@@ -1,6 +1,6 @@
 {
   "name": "crypto-price-converter",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Free Nodejs lib to convert crypto prices to any currency",
   "main": "./dist/index.js",
   "types": "./dist/types/index.d.ts",
