@@ -18,6 +18,8 @@ const { CryptoConverterAPI } = require("crypto-price-converter");
 const converter = new CryptoConverterAPI();
 ```
 
+### Convert token quantity to currency
+
 ```javascript
 const { CryptoConverterAPI } = require("crypto-price-converter");
 
@@ -32,6 +34,8 @@ Output:
 ```javascript
 { amount: 43149, currency: 'USD', symbol: 'Bitcoin' }
 ```
+
+### Convert your currency amount to crypto value
 
 ```javascript
 const { CryptoConverterAPI } = require("crypto-price-converter");
