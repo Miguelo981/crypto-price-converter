@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "noImplicitAny": true,
+    "target": "es6",
+    "module": "CommonJS",
+    "typeRoots": ["node_modules/@types"],
+    "outDir": "dist",
+    "rootDir": "."
+  },
+  "include": [".", "types"],
+  "exclude": [
+    "node_modules", 
+    "dist"
+  ]
+}
