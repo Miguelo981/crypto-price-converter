@@ -1,0 +1,44 @@
+{
+  "name": "crypto-price-converter",
+  "version": "1.0.0",
+  "description": "Free Nodejs lib to convert crypto prices to any currency",
+  "main": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
+  "scripts": {
+    "dev": "npm run build && node dist/index.js",
+    "test": "node test/main.js",
+    "example": "node example/index.mjs",
+    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+    "clean": "rimraf ./dist",
+    "tsc": "tsc --outDir dist/",
+    "build": "npm run clean && npm run tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miguelo981/crypto-price-converter.git"
+  },
+  "keywords": [
+    "crypto",
+    "crypto price",
+    "crypto currency",
+    "nodejs",
+    "api"
+  ],
+  "author": "Miguel Ángel Rodríguez <ma.rodriguez.dev@gmail.com> (https://portfolio.miguelo.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Miguelo981/crypto-price-converter/issues"
+  },
+  "homepage": "https://github.com/Miguelo981/crypto-price-converter#readme",
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@typescript-eslint/parser": "^5.59.11",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "prettier": "^2.8.8",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.3"
+  }
+}
